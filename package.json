@@ -1,0 +1,26 @@
+{
+  "name": "zuul-multiple-files",
+  "version": "1.0.0",
+  "description": "POC for tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=zuul:phantombrowser node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/zuul-multiple-files.git"
+  },
+  "keywords": [
+    "zuul"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/zuul-multiple-files/issues"
+  },
+  "homepage": "https://github.com/azu/zuul-multiple-files",
+  "devDependencies": {
+    "phantomjs": "^1.9.16",
+    "zuul": "^2.1.1"
+  }
+}
